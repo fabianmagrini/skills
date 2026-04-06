@@ -1,0 +1,44 @@
+{
+  "skills": [
+    {
+      "name": "explain-codebase",
+      "description": "Answer \"what does this do?\" for a codebase, directory, or file. Produces a concise inline explanation without writing a documentation file.",
+      "path": "skills/explain-codebase/SKILL.md",
+      "allowed-tools": ["Read", "Glob", "Grep", "WebFetch"],
+      "version": "1.0",
+      "author": "fabianmagrini"
+    },
+    {
+      "name": "research-codebase",
+      "description": "Research and produce comprehensive documentation for a codebase from a GitHub URL or local path.",
+      "path": "skills/research-codebase/SKILL.md",
+      "allowed-tools": ["Read", "Glob", "Grep", "WebFetch", "Write"],
+      "version": "1.0",
+      "author": "fabianmagrini"
+    },
+    {
+      "name": "review-code",
+      "description": "Perform a structured code review of a file or function, covering correctness, security, readability, edge cases, and test coverage.",
+      "path": "skills/review-code/SKILL.md",
+      "allowed-tools": ["Read", "Glob", "Grep"],
+      "version": "1.0",
+      "author": "fabianmagrini"
+    },
+    {
+      "name": "summarise-pr",
+      "description": "Summarise a GitHub pull request — its purpose, key changes, and review considerations — given a URL or owner/repo#number reference.",
+      "path": "skills/summarise-pr/SKILL.md",
+      "allowed-tools": ["WebFetch", "WebSearch"],
+      "version": "1.0",
+      "author": "fabianmagrini"
+    },
+    {
+      "name": "write-tests",
+      "description": "Generate tests for a specified file, function, or class. Matches the project's existing test framework, style, and conventions.",
+      "path": "skills/write-tests/SKILL.md",
+      "allowed-tools": ["Read", "Glob", "Grep", "Write"],
+      "version": "1.0",
+      "author": "fabianmagrini"
+    }
+  ]
+}
