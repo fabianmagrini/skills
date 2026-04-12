@@ -9,6 +9,7 @@ Skills extend Claude Code with reusable, invocable prompts. Each skill lives in 
 | Skill | Description |
 |-------|-------------|
 | [explain-codebase](skills/explain-codebase/SKILL.md) | Quick inline explanation of a repo, directory, file, or function |
+| [map-api-flow](skills/map-api-flow/SKILL.md) | Map the full API call chain from frontend to backend, with a Mermaid diagram and critical path summary |
 | [research-codebase](skills/research-codebase/SKILL.md) | Comprehensive documentation for a codebase, written to a file |
 | [review-code](skills/review-code/SKILL.md) | Structured code review covering correctness, security, edge cases, and tests |
 | [summarise-pr](skills/summarise-pr/SKILL.md) | Summarise a GitHub PR — purpose, key changes, and review considerations |
@@ -26,6 +27,11 @@ Invoke any skill in Claude Code with its slash command:
 # Explain a codebase, file, or function inline
 /explain-codebase https://github.com/owner/repo
 /explain-codebase src/auth/middleware.ts
+
+# Map an API flow
+/map-api-flow
+/map-api-flow user authentication
+/map-api-flow src/features/checkout
 
 # Produce a full documentation file
 /research-codebase https://github.com/owner/repo

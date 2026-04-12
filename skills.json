@@ -1,6 +1,14 @@
 {
   "skills": [
     {
+      "name": "map-api-flow",
+      "description": "Map the full API call chain from frontend UI components through the API layer, across the network boundary, to backend controllers and services. Produces a Mermaid.js diagram and a bullet-point summary of critical data flow paths.",
+      "path": "skills/map-api-flow/SKILL.md",
+      "allowed-tools": ["Read", "Glob", "Grep", "Agent"],
+      "version": "2.0",
+      "author": "fabianmagrini"
+    },
+    {
       "name": "explain-codebase",
       "description": "Answer \"what does this do?\" for a codebase, directory, or file. Produces a concise inline explanation without writing a documentation file.",
       "path": "skills/explain-codebase/SKILL.md",
