@@ -56,6 +56,12 @@ Skills extend your coding agent with reusable, invocable prompts. Each skill liv
 | [incident-review](skills/incident-review/SKILL.md) | Produce a blameless postmortem with structured timeline, 5 Whys root cause analysis, contributing factors, and actionable CAPAs |
 | [platform-readiness](skills/platform-readiness/SKILL.md) | Evaluate production readiness across observability, security, CI/CD, scalability, and SLOs with a RAG-scored checklist and prioritised remediation |
 
+### Agentic
+
+| Skill | Description |
+|-------|-------------|
+| [skill-generator](skills/skill-generator/SKILL.md) | Generate a new skill from a repeated workflow description — elicits trigger, discovery, output format, and gotchas before writing a schema-compliant first draft |
+
 ## Installation
 
 Copy or symlink individual skill directories from `skills/` into your agent's skills folder. See [agentskills.io](https://agentskills.io/home) for the installation path and setup instructions for your agent and platform.
@@ -65,6 +71,10 @@ Copy or symlink individual skill directories from `skills/` into your agent's sk
 Invoke any skill with its slash command (exact syntax may vary by agent):
 
 ```
+# Generate a new skill from a workflow description
+/skill-generator
+/skill-generator summarise Slack threads into action items
+
 # Convert a spec to a backlog
 /spec-to-backlog passkey auth
 /spec-to-backlog docs/specs/semantic-layer.md
