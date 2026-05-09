@@ -1,25 +1,28 @@
 {
   "skills": [
     {
-      "name": "map-api-flow",
-      "description": "Map the full API call chain from frontend UI components through the API layer, across the network boundary, to backend controllers and services. Produces a Mermaid.js diagram and a bullet-point summary of critical data flow paths.",
-      "path": "skills/map-api-flow/SKILL.md",
-      "allowed-tools": ["Read", "Glob", "Grep", "Agent"],
-      "version": "2.0",
-      "author": "fabianmagrini"
-    },
-    {
       "name": "explain-codebase",
       "description": "Answer \"what does this do?\" for a codebase, directory, or file. Produces a concise inline explanation without writing a documentation file.",
       "path": "skills/explain-codebase/SKILL.md",
+      "category": "understand",
       "allowed-tools": ["Read", "Glob", "Grep", "WebFetch"],
       "version": "1.0",
+      "author": "fabianmagrini"
+    },
+    {
+      "name": "map-api-flow",
+      "description": "Map the full API call chain from frontend UI components through the API layer, across the network boundary, to backend controllers and services. Produces a Mermaid.js diagram and a bullet-point summary of critical data flow paths.",
+      "path": "skills/map-api-flow/SKILL.md",
+      "category": "understand",
+      "allowed-tools": ["Read", "Glob", "Grep", "Agent"],
+      "version": "2.0",
       "author": "fabianmagrini"
     },
     {
       "name": "research-codebase",
       "description": "Research and produce comprehensive documentation for a codebase from a GitHub URL or local path.",
       "path": "skills/research-codebase/SKILL.md",
+      "category": "understand",
       "allowed-tools": ["Read", "Glob", "Grep", "WebFetch", "Write"],
       "version": "1.0",
       "author": "fabianmagrini"
@@ -28,6 +31,7 @@
       "name": "review-code",
       "description": "Perform a structured code review of a file or function, covering correctness, security, readability, edge cases, and test coverage.",
       "path": "skills/review-code/SKILL.md",
+      "category": "review-and-test",
       "allowed-tools": ["Read", "Glob", "Grep"],
       "version": "1.0",
       "author": "fabianmagrini"
@@ -36,6 +40,7 @@
       "name": "summarise-pr",
       "description": "Summarise a GitHub pull request — its purpose, key changes, and review considerations — given a URL or owner/repo#number reference.",
       "path": "skills/summarise-pr/SKILL.md",
+      "category": "review-and-test",
       "allowed-tools": ["WebFetch", "WebSearch"],
       "version": "1.0",
       "author": "fabianmagrini"
@@ -44,7 +49,53 @@
       "name": "write-tests",
       "description": "Generate tests for a specified file, function, or class. Matches the project's existing test framework, style, and conventions.",
       "path": "skills/write-tests/SKILL.md",
+      "category": "review-and-test",
       "allowed-tools": ["Read", "Glob", "Grep", "Write"],
+      "version": "1.0",
+      "author": "fabianmagrini"
+    },
+    {
+      "name": "design-system",
+      "description": "Convert a requirement or business goal into a reference architecture with C4 diagrams, component boundaries, trade-offs, NFRs, and risks.",
+      "path": "skills/design-system/SKILL.md",
+      "category": "design",
+      "allowed-tools": ["Read", "Glob", "Grep", "Write"],
+      "version": "1.0",
+      "author": "fabianmagrini"
+    },
+    {
+      "name": "write-adr",
+      "description": "Generate an Architecture Decision Record (ADR) for a technical choice, capturing context, decision, alternatives considered, and consequences.",
+      "path": "skills/write-adr/SKILL.md",
+      "category": "design",
+      "allowed-tools": ["Read", "Glob", "Grep", "Write"],
+      "version": "1.0",
+      "author": "fabianmagrini"
+    },
+    {
+      "name": "perf-investigate",
+      "description": "Diagnose performance bottlenecks in a system or codebase — latency, CPU, memory, or throughput — and produce a latency tree, suspect list, cache opportunities, and a concrete profiling plan.",
+      "path": "skills/perf-investigate/SKILL.md",
+      "category": "improve",
+      "allowed-tools": ["Read", "Glob", "Grep"],
+      "version": "1.0",
+      "author": "fabianmagrini"
+    },
+    {
+      "name": "refactor-strategy",
+      "description": "Produce a large-scale refactoring or modernization roadmap with incremental migration phases, blast radius analysis, rollback plan, and risk register.",
+      "path": "skills/refactor-strategy/SKILL.md",
+      "category": "improve",
+      "allowed-tools": ["Read", "Glob", "Grep", "Write"],
+      "version": "1.0",
+      "author": "fabianmagrini"
+    },
+    {
+      "name": "threat-model",
+      "description": "Apply STRIDE threat modelling to a system, component, or architecture description to identify threat vectors, trust boundaries, abuse cases, and mitigations.",
+      "path": "skills/threat-model/SKILL.md",
+      "category": "secure",
+      "allowed-tools": ["Read", "Glob", "Grep"],
       "version": "1.0",
       "author": "fabianmagrini"
     }
