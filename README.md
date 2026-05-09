@@ -33,6 +33,7 @@ Skills extend your coding agent with reusable, invocable prompts. Each skill liv
 | Skill | Description |
 |-------|-------------|
 | [design-system](skills/design-system/SKILL.md) | Convert a requirement or business goal into a reference architecture with C4 diagrams, component boundaries, trade-offs, NFRs, and risks |
+| [draft-rfc](skills/draft-rfc/SKILL.md) | Scaffold a technical RFC covering goals, non-goals, proposed solution, architecture, security, rollout, and alternatives |
 | [write-adr](skills/write-adr/SKILL.md) | Generate an Architecture Decision Record capturing context, decision, alternatives, and consequences |
 
 ### Improve
@@ -109,6 +110,11 @@ Invoke any skill with its slash command (exact syntax may vary by agent):
 # Design a system architecture
 /design-system auth platform
 /design-system multi-tenant SaaS
+
+# Draft a technical RFC
+/draft-rfc global rate limiting
+/draft-rfc passkey authentication
+/draft-rfc docs/notes/semantic-search.md
 
 # Write an Architecture Decision Record
 /write-adr use GraphQL federation
