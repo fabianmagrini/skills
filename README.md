@@ -46,6 +46,7 @@ Skills extend your coding agent with reusable, invocable prompts. Each skill liv
 
 | Skill | Description |
 |-------|-------------|
+| [dependency-risk](skills/dependency-risk/SKILL.md) | Analyze package, vendor, or architecture dependency risk — supply chain exposure, license compatibility, vendor lock-in, and coupling depth |
 | [threat-model](skills/threat-model/SKILL.md) | Apply STRIDE threat modelling to identify threat vectors, trust boundaries, abuse cases, and mitigations |
 
 ### Operate
@@ -105,6 +106,11 @@ Invoke any skill with its slash command (exact syntax may vary by agent):
 # Plan a large-scale refactor
 /refactor-strategy monolith to microservices
 /refactor-strategy src/legacy/
+
+# Analyze dependency and vendor risk
+/dependency-risk package.json
+/dependency-risk auth0
+/dependency-risk services/payments/
 
 # Threat model a system or component
 /threat-model payments API
