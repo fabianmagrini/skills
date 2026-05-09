@@ -13,6 +13,7 @@ Skills extend your coding agent with reusable, invocable prompts. Each skill liv
 | [research-codebase](skills/research-codebase/SKILL.md) | Comprehensive documentation for a codebase, written to a file |
 | [review-code](skills/review-code/SKILL.md) | Structured code review covering correctness, security, edge cases, and tests |
 | [summarise-pr](skills/summarise-pr/SKILL.md) | Summarise a GitHub PR — purpose, key changes, and review considerations |
+| [threat-model](skills/threat-model/SKILL.md) | Apply STRIDE threat modelling to identify threat vectors, trust boundaries, abuse cases, and mitigations |
 | [write-tests](skills/write-tests/SKILL.md) | Generate tests that match the project's existing framework and conventions |
 
 ## Installation
