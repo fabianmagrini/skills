@@ -32,6 +32,7 @@ Skills extend your coding agent with reusable, invocable prompts. Each skill liv
 
 | Skill | Description |
 |-------|-------------|
+| [design-api](skills/design-api/SKILL.md) | Design a REST (OpenAPI 3.x) or GraphQL API — resources, operations, schemas, error states, pagination, auth, and versioning |
 | [design-system](skills/design-system/SKILL.md) | Convert a requirement or business goal into a reference architecture with C4 diagrams, component boundaries, trade-offs, NFRs, and risks |
 | [draft-rfc](skills/draft-rfc/SKILL.md) | Scaffold a technical RFC covering goals, non-goals, proposed solution, architecture, security, rollout, and alternatives |
 | [write-adr](skills/write-adr/SKILL.md) | Generate an Architecture Decision Record capturing context, decision, alternatives, and consequences |
@@ -112,6 +113,11 @@ Invoke any skill with its slash command (exact syntax may vary by agent):
 
 # Generate tests
 /write-tests src/utils/format.ts
+
+# Design an API (REST or GraphQL)
+/design-api subscription and billing management
+/design-api passkey authentication --graphql
+/design-api src/orders/ --rest
 
 # Design a system architecture
 /design-system auth platform
