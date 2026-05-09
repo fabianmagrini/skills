@@ -6,6 +6,12 @@ Skills extend your coding agent with reusable, invocable prompts. Each skill liv
 
 ## Skills
 
+### Build
+
+| Skill | Description |
+|-------|-------------|
+| [spec-to-backlog](skills/spec-to-backlog/SKILL.md) | Convert a product spec or feature description into a sequenced backlog of epics, user stories, technical stories, and spikes |
+
 ### Understand
 
 | Skill | Description |
@@ -58,6 +64,10 @@ Copy or symlink individual skill directories from `skills/` into your agent's sk
 Invoke any skill with its slash command (exact syntax may vary by agent):
 
 ```
+# Convert a spec to a backlog
+/spec-to-backlog passkey auth
+/spec-to-backlog docs/specs/semantic-layer.md
+
 # Explain a codebase, file, or function inline
 /explain-codebase https://github.com/owner/repo
 /explain-codebase src/auth/middleware.ts
