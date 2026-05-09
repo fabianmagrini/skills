@@ -1,8 +1,8 @@
 # skills
 
-A collection of custom skills for [Claude Code](https://claude.ai/code). 
+A collection of custom skills for coding agents that support the [Agent Skills](https://agentskills.io/home) standard, including [Claude Code](https://claude.ai/code).
 
-Skills extend Claude Code with reusable, invocable prompts. Each skill lives in its own directory and is activated via the `/skill-name` slash command. For information about the Agent Skills standard, see [agentskills.io](https://agentskills.io/home). For more examples of skills see <https://github.com/anthropics/skills>.
+Skills extend your coding agent with reusable, invocable prompts. Each skill lives in its own directory and is activated via a slash command. For information about the Agent Skills standard, see [agentskills.io](https://agentskills.io/home). For more examples of skills see <https://github.com/anthropics/skills>.
 
 ## Skills
 
@@ -17,11 +17,11 @@ Skills extend Claude Code with reusable, invocable prompts. Each skill lives in 
 
 ## Installation
 
-Copy or symlink individual skill directories from `skills/` into your Claude Code skills folder. See [agentskills.io](https://agentskills.io/home) for the installation path and setup instructions for your platform.
+Copy or symlink individual skill directories from `skills/` into your agent's skills folder. See [agentskills.io](https://agentskills.io/home) for the installation path and setup instructions for your agent and platform.
 
 ## Usage
 
-Invoke any skill in Claude Code with its slash command:
+Invoke any skill with its slash command (exact syntax may vary by agent):
 
 ```
 # Explain a codebase, file, or function inline
@@ -46,6 +46,15 @@ Invoke any skill in Claude Code with its slash command:
 # Generate tests
 /write-tests src/utils/format.ts
 ```
+
+## Community Skills
+
+Skills from people worth following:
+
+| Author | Repository | Highlights |
+|--------|------------|------------|
+| [Addy Osmani](https://github.com/addyosmani) | <https://github.com/addyosmani/agent-skills> | Production-grade skills covering code review, security, TDD, debugging, performance, CI/CD, spec-driven development, and more |
+| [Matt Pocock](https://github.com/mattpocock) | <https://github.com/mattpocock/skills> | Practical engineering skills including TDD, architecture review, issue triage, prototyping, and diagnosis |
 
 ## Structure
 
