@@ -163,6 +163,15 @@
       "author": "fabianmagrini"
     },
     {
+      "name": "generate-runbook",
+      "description": "Generate or update an operational runbook for a service — covering deployment, rollback, health checks, on-call escalation, common failure modes with diagnosis steps, alert procedures, and routine maintenance.",
+      "path": "skills/generate-runbook/SKILL.md",
+      "category": "operate",
+      "allowed-tools": ["Read", "Glob", "Grep", "Write"],
+      "version": "1.0",
+      "author": "fabianmagrini"
+    },
+    {
       "name": "context-engineering",
       "description": "Generate or audit an agent context file (CLAUDE.md or equivalent) for a codebase — extracting project conventions, commands, architecture, tool permissions, and anti-patterns from the actual code.",
       "path": "skills/context-engineering/SKILL.md",
