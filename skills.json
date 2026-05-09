@@ -64,6 +64,15 @@
       "author": "fabianmagrini"
     },
     {
+      "name": "design-api",
+      "description": "Design a REST (OpenAPI 3.x) or GraphQL API for a feature or service — covering resources, operations, request/response schemas, error states, pagination, auth, and versioning.",
+      "path": "skills/design-api/SKILL.md",
+      "category": "design",
+      "allowed-tools": ["Read", "Glob", "Grep", "Write"],
+      "version": "1.0",
+      "author": "fabianmagrini"
+    },
+    {
       "name": "design-system",
       "description": "Convert a requirement or business goal into a reference architecture with C4 diagrams, component boundaries, trade-offs, NFRs, and risks.",
       "path": "skills/design-system/SKILL.md",
