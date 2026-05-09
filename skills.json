@@ -55,6 +55,15 @@
       "author": "fabianmagrini"
     },
     {
+      "name": "test-strategy",
+      "description": "Audit the current test pyramid, identify imbalances and coverage gaps, and produce a recommended test strategy with tooling, coverage targets, and a prioritised improvement plan.",
+      "path": "skills/test-strategy/SKILL.md",
+      "category": "review-and-test",
+      "allowed-tools": ["Read", "Glob", "Grep", "Write"],
+      "version": "1.0",
+      "author": "fabianmagrini"
+    },
+    {
       "name": "write-tests",
       "description": "Generate tests for a specified file, function, or class. Matches the project's existing test framework, style, and conventions.",
       "path": "skills/write-tests/SKILL.md",

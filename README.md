@@ -26,6 +26,7 @@ Skills extend your coding agent with reusable, invocable prompts. Each skill liv
 |-------|-------------|
 | [review-code](skills/review-code/SKILL.md) | Structured code review covering correctness, security, edge cases, and tests |
 | [summarise-pr](skills/summarise-pr/SKILL.md) | Summarise a GitHub PR — purpose, key changes, and review considerations |
+| [test-strategy](skills/test-strategy/SKILL.md) | Audit the current test pyramid, identify gaps and imbalances, and produce a recommended strategy with tooling, coverage targets, and an improvement plan |
 | [write-tests](skills/write-tests/SKILL.md) | Generate tests that match the project's existing framework and conventions |
 
 ### Design
@@ -107,6 +108,10 @@ Invoke any skill with its slash command (exact syntax may vary by agent):
 
 # Review code
 /review-code src/payments/processor.ts
+
+# Audit and design a test strategy
+/test-strategy
+/test-strategy src/services/payments/
 
 # Summarise a pull request
 /summarise-pr owner/repo#123
