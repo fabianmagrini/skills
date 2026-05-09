@@ -62,6 +62,7 @@ Skills extend your coding agent with reusable, invocable prompts. Each skill liv
 | Skill | Description |
 |-------|-------------|
 | [agent-loop-design](skills/agent-loop-design/SKILL.md) | Design an autonomous agent loop — loop pattern, phases, guardrails, HITL checkpoints, tool contracts, and observability — for a given workflow or governance objective |
+| [context-engineering](skills/context-engineering/SKILL.md) | Generate or audit an agent context file (CLAUDE.md or equivalent) by extracting project conventions, commands, architecture, and anti-patterns from the codebase |
 | [skill-generator](skills/skill-generator/SKILL.md) | Generate a new skill from a repeated workflow description — elicits trigger, discovery, output format, and gotchas before writing a schema-compliant first draft |
 
 ## Installation
@@ -76,6 +77,11 @@ Invoke any skill with its slash command (exact syntax may vary by agent):
 # Design an autonomous agent loop
 /agent-loop-design PR governance
 /agent-loop-design code remediation
+
+# Generate or audit an agent context file
+/context-engineering
+/context-engineering audit
+/context-engineering audit path/to/CLAUDE.md
 
 # Generate a new skill from a workflow description
 /skill-generator
