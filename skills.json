@@ -107,6 +107,15 @@
       "allowed-tools": ["Read", "Glob", "Write"],
       "version": "1.0",
       "author": "fabianmagrini"
+    },
+    {
+      "name": "platform-readiness",
+      "description": "Evaluate the production readiness of a service or platform across observability, security, CI/CD, scalability, and SLOs. Produces a RAG-scored checklist, findings with evidence, and a prioritised remediation list.",
+      "path": "skills/platform-readiness/SKILL.md",
+      "category": "operate",
+      "allowed-tools": ["Read", "Glob", "Grep", "Write"],
+      "version": "1.0",
+      "author": "fabianmagrini"
     }
   ]
 }
