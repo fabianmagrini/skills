@@ -73,6 +73,15 @@
       "author": "fabianmagrini"
     },
     {
+      "name": "draft-rfc",
+      "description": "Scaffold a technical RFC (Request for Comments) or design spec for a feature or initiative, covering goals, non-goals, proposed solution, architecture, security, rollout, and alternatives.",
+      "path": "skills/draft-rfc/SKILL.md",
+      "category": "design",
+      "allowed-tools": ["Read", "Glob", "Grep", "Write"],
+      "version": "1.0",
+      "author": "fabianmagrini"
+    },
+    {
       "name": "write-adr",
       "description": "Generate an Architecture Decision Record (ADR) for a technical choice, capturing context, decision, alternatives considered, and consequences.",
       "path": "skills/write-adr/SKILL.md",
