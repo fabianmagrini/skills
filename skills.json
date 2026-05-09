@@ -98,6 +98,15 @@
       "allowed-tools": ["Read", "Glob", "Grep"],
       "version": "1.0",
       "author": "fabianmagrini"
+    },
+    {
+      "name": "incident-review",
+      "description": "Produce a blameless postmortem and RCA for an incident — structured timeline, proximate and root cause analysis using 5 Whys, contributing factors, and actionable CAPAs with owners and dates.",
+      "path": "skills/incident-review/SKILL.md",
+      "category": "operate",
+      "allowed-tools": ["Read", "Glob", "Write"],
+      "version": "1.0",
+      "author": "fabianmagrini"
     }
   ]
 }
