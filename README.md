@@ -14,6 +14,7 @@ Skills extend your coding agent with reusable, invocable prompts. Each skill liv
 | [review-code](skills/review-code/SKILL.md) | Structured code review covering correctness, security, edge cases, and tests |
 | [summarise-pr](skills/summarise-pr/SKILL.md) | Summarise a GitHub PR — purpose, key changes, and review considerations |
 | [threat-model](skills/threat-model/SKILL.md) | Apply STRIDE threat modelling to identify threat vectors, trust boundaries, abuse cases, and mitigations |
+| [write-adr](skills/write-adr/SKILL.md) | Generate an Architecture Decision Record capturing context, decision, alternatives, and consequences |
 | [write-tests](skills/write-tests/SKILL.md) | Generate tests that match the project's existing framework and conventions |
 
 ## Installation
