@@ -1,6 +1,15 @@
 {
   "skills": [
     {
+      "name": "skill-generator",
+      "description": "Generate a new SKILL.md from a description of a repeated workflow. Elicits trigger conditions, discovery steps, output format, and gotchas before writing — producing a schema-compliant first draft ready for review.",
+      "path": "skills/skill-generator/SKILL.md",
+      "category": "agentic",
+      "allowed-tools": ["Read", "Glob", "Write"],
+      "version": "1.0",
+      "author": "fabianmagrini"
+    },
+    {
       "name": "spec-to-backlog",
       "description": "Convert a product specification, PRD, or feature description into a sequenced backlog of epics, user stories, technical stories, and spikes with acceptance criteria and dependency ordering.",
       "path": "skills/spec-to-backlog/SKILL.md",
