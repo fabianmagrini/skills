@@ -27,7 +27,7 @@ metadata:
   last-updated: YYYY-MM-DD
 ---
 
-Instructions for Claude go here...
+Skill instructions go here...
 ```
 
 See [SKILL-SCHEMA.md](SKILL-SCHEMA.md) for full field definitions, required vs optional fields, and versioning policy.

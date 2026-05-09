@@ -6,19 +6,41 @@ Skills extend your coding agent with reusable, invocable prompts. Each skill liv
 
 ## Skills
 
+### Understand
+
+| Skill | Description |
+|-------|-------------|
+| [explain-codebase](skills/explain-codebase/SKILL.md) | Quick inline explanation of a repo, directory, file, or function |
+| [map-api-flow](skills/map-api-flow/SKILL.md) | Map the full API call chain from frontend to backend, with a Mermaid diagram and critical path summary |
+| [research-codebase](skills/research-codebase/SKILL.md) | Comprehensive documentation for a codebase, written to a file |
+
+### Review & Test
+
+| Skill | Description |
+|-------|-------------|
+| [review-code](skills/review-code/SKILL.md) | Structured code review covering correctness, security, edge cases, and tests |
+| [summarise-pr](skills/summarise-pr/SKILL.md) | Summarise a GitHub PR — purpose, key changes, and review considerations |
+| [write-tests](skills/write-tests/SKILL.md) | Generate tests that match the project's existing framework and conventions |
+
+### Design
+
 | Skill | Description |
 |-------|-------------|
 | [design-system](skills/design-system/SKILL.md) | Convert a requirement or business goal into a reference architecture with C4 diagrams, component boundaries, trade-offs, NFRs, and risks |
-| [explain-codebase](skills/explain-codebase/SKILL.md) | Quick inline explanation of a repo, directory, file, or function |
-| [map-api-flow](skills/map-api-flow/SKILL.md) | Map the full API call chain from frontend to backend, with a Mermaid diagram and critical path summary |
+| [write-adr](skills/write-adr/SKILL.md) | Generate an Architecture Decision Record capturing context, decision, alternatives, and consequences |
+
+### Improve
+
+| Skill | Description |
+|-------|-------------|
 | [perf-investigate](skills/perf-investigate/SKILL.md) | Diagnose performance bottlenecks — latency, CPU, memory, or throughput — with a latency tree, suspect list, cache opportunities, and profiling plan |
 | [refactor-strategy](skills/refactor-strategy/SKILL.md) | Produce a large-scale refactoring roadmap with incremental phases, blast radius analysis, rollback plan, and risk register |
-| [research-codebase](skills/research-codebase/SKILL.md) | Comprehensive documentation for a codebase, written to a file |
-| [review-code](skills/review-code/SKILL.md) | Structured code review covering correctness, security, edge cases, and tests |
-| [summarise-pr](skills/summarise-pr/SKILL.md) | Summarise a GitHub PR — purpose, key changes, and review considerations |
+
+### Secure
+
+| Skill | Description |
+|-------|-------------|
 | [threat-model](skills/threat-model/SKILL.md) | Apply STRIDE threat modelling to identify threat vectors, trust boundaries, abuse cases, and mitigations |
-| [write-adr](skills/write-adr/SKILL.md) | Generate an Architecture Decision Record capturing context, decision, alternatives, and consequences |
-| [write-tests](skills/write-tests/SKILL.md) | Generate tests that match the project's existing framework and conventions |
 
 ## Installation
 
@@ -50,6 +72,26 @@ Invoke any skill with its slash command (exact syntax may vary by agent):
 
 # Generate tests
 /write-tests src/utils/format.ts
+
+# Design a system architecture
+/design-system auth platform
+/design-system multi-tenant SaaS
+
+# Write an Architecture Decision Record
+/write-adr use GraphQL federation
+/write-adr Redis for authorization cache
+
+# Investigate a performance problem
+/perf-investigate checkout latency
+/perf-investigate src/search/
+
+# Plan a large-scale refactor
+/refactor-strategy monolith to microservices
+/refactor-strategy src/legacy/
+
+# Threat model a system or component
+/threat-model payments API
+/threat-model src/auth/
 ```
 
 ## Community Skills
