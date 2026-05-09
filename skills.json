@@ -1,6 +1,15 @@
 {
   "skills": [
     {
+      "name": "agent-loop-design",
+      "description": "Design an autonomous, policy-driven agent loop — covering loop pattern, phases, guardrails, HITL checkpoints, tool contracts, and observability — for a given workflow or governance objective.",
+      "path": "skills/agent-loop-design/SKILL.md",
+      "category": "agentic",
+      "allowed-tools": ["Read", "Glob", "Grep", "Write"],
+      "version": "1.0",
+      "author": "fabianmagrini"
+    },
+    {
       "name": "skill-generator",
       "description": "Generate a new SKILL.md from a description of a repeated workflow. Elicits trigger conditions, discovery steps, output format, and gotchas before writing — producing a schema-compliant first draft ready for review.",
       "path": "skills/skill-generator/SKILL.md",
