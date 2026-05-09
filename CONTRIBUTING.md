@@ -36,11 +36,7 @@ See [SKILL-SCHEMA.md](SKILL-SCHEMA.md) for full field definitions, required vs o
 
 Use `references/` for templates, example outputs, or other files the skill prompt references. Add a `README.md` explaining the purpose of each file.
 
-### 4. Add examples to `SKILL.md`
-
-Include a `## Examples` section showing realistic invocations and what output to expect.
-
-### 5. Register the skill in the root `README.md` and `skills.json`
+### 4. Register the skill in the root `README.md` and `skills.json`
 
 - Add a row to the Skills table in [README.md](README.md).
 - Add an entry to [skills.json](skills.json) following the existing structure.

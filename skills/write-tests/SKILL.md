@@ -44,7 +44,7 @@ Cover these cases in order of priority:
 
 Do not generate tests for private/internal helpers unless they are the explicit target.
 
-## Output
+## Output format
 
 Write the test file to the location that matches the project's convention (co-located, `__tests__/`, `tests/`, etc.).
 

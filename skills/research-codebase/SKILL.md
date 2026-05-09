@@ -46,7 +46,7 @@ Gather enough to answer all of these:
 - **How to run it** — prerequisites, setup steps, dev commands, environment variables
 - **Build / test / deploy** — pipeline, test commands, CI/CD
 
-## Output
+## Output format
 
 Write `{repo-name}-docs.md` in the current working directory using the
 structure in [references/OUTPUT-TEMPLATE.md](references/OUTPUT-TEMPLATE.md).

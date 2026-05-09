@@ -35,7 +35,7 @@ Document any prerequisites or limitations that affect whether the skill can run.
 - `Only works with Node.js projects.`
 
 #### `allowed-tools` (required)
-Space-separated list of Claude Code tools the skill is permitted to use. Be as restrictive as possible — only include tools the skill actually needs.
+Space-separated list of tools the skill is permitted to use. Be as restrictive as possible — only include tools the skill actually needs.
 
 Available tools: `Read`, `Glob`, `Grep`, `Write`, `Edit`, `Bash`, `WebFetch`, `WebSearch`, `Agent`
 
