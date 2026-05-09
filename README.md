@@ -42,6 +42,12 @@ Skills extend your coding agent with reusable, invocable prompts. Each skill liv
 |-------|-------------|
 | [threat-model](skills/threat-model/SKILL.md) | Apply STRIDE threat modelling to identify threat vectors, trust boundaries, abuse cases, and mitigations |
 
+### Operate
+
+| Skill | Description |
+|-------|-------------|
+| [incident-review](skills/incident-review/SKILL.md) | Produce a blameless postmortem with structured timeline, 5 Whys root cause analysis, contributing factors, and actionable CAPAs |
+
 ## Installation
 
 Copy or symlink individual skill directories from `skills/` into your agent's skills folder. See [agentskills.io](https://agentskills.io/home) for the installation path and setup instructions for your agent and platform.
@@ -92,6 +98,10 @@ Invoke any skill with its slash command (exact syntax may vary by agent):
 # Threat model a system or component
 /threat-model payments API
 /threat-model src/auth/
+
+# Produce a postmortem and RCA
+/incident-review outage-timeline.md
+/incident-review incidents/2026-05-09/
 ```
 
 ## Community Skills
