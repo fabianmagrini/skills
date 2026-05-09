@@ -145,6 +145,15 @@
       "author": "fabianmagrini"
     },
     {
+      "name": "context-engineering",
+      "description": "Generate or audit an agent context file (CLAUDE.md or equivalent) for a codebase — extracting project conventions, commands, architecture, tool permissions, and anti-patterns from the actual code.",
+      "path": "skills/context-engineering/SKILL.md",
+      "category": "agentic",
+      "allowed-tools": ["Read", "Glob", "Grep", "Write"],
+      "version": "1.0",
+      "author": "fabianmagrini"
+    },
+    {
       "name": "agent-loop-design",
       "description": "Design an autonomous, policy-driven agent loop — covering loop pattern, phases, guardrails, HITL checkpoints, tool contracts, and observability — for a given workflow or governance objective.",
       "path": "skills/agent-loop-design/SKILL.md",
