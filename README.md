@@ -11,6 +11,7 @@ Skills extend your coding agent with reusable, invocable prompts. Each skill liv
 | [design-system](skills/design-system/SKILL.md) | Convert a requirement or business goal into a reference architecture with C4 diagrams, component boundaries, trade-offs, NFRs, and risks |
 | [explain-codebase](skills/explain-codebase/SKILL.md) | Quick inline explanation of a repo, directory, file, or function |
 | [map-api-flow](skills/map-api-flow/SKILL.md) | Map the full API call chain from frontend to backend, with a Mermaid diagram and critical path summary |
+| [refactor-strategy](skills/refactor-strategy/SKILL.md) | Produce a large-scale refactoring roadmap with incremental phases, blast radius analysis, rollback plan, and risk register |
 | [research-codebase](skills/research-codebase/SKILL.md) | Comprehensive documentation for a codebase, written to a file |
 | [review-code](skills/review-code/SKILL.md) | Structured code review covering correctness, security, edge cases, and tests |
 | [summarise-pr](skills/summarise-pr/SKILL.md) | Summarise a GitHub PR — purpose, key changes, and review considerations |
