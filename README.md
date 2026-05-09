@@ -47,6 +47,7 @@ Skills extend your coding agent with reusable, invocable prompts. Each skill liv
 | Skill | Description |
 |-------|-------------|
 | [incident-review](skills/incident-review/SKILL.md) | Produce a blameless postmortem with structured timeline, 5 Whys root cause analysis, contributing factors, and actionable CAPAs |
+| [platform-readiness](skills/platform-readiness/SKILL.md) | Evaluate production readiness across observability, security, CI/CD, scalability, and SLOs with a RAG-scored checklist and prioritised remediation |
 
 ## Installation
 
@@ -102,6 +103,10 @@ Invoke any skill with its slash command (exact syntax may vary by agent):
 # Produce a postmortem and RCA
 /incident-review outage-timeline.md
 /incident-review incidents/2026-05-09/
+
+# Evaluate production readiness
+/platform-readiness BFF
+/platform-readiness services/checkout/
 ```
 
 ## Community Skills
