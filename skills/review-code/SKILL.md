@@ -74,4 +74,4 @@ Ordered list of the most important actions to take.
 - Do not flag style issues as MAJOR — they are NITs unless the project has a linter that enforces them.
 - Read tests before flagging missing coverage — they may exist in a separate file.
 - Do not recommend adding comments to self-evident code.
-- This skill pairs naturally with `/write-tests` (adding tests for coverage gaps identified in the review) and `/threat-model` (when the review surfaces security concerns that warrant a deeper STRIDE analysis).
+- This skill pairs naturally with `/write-tests` (adding tests for coverage gaps identified in the review), `/threat-model` (when the review surfaces security concerns that warrant a deeper STRIDE analysis), and `/summarise-pr` (summarise the PR first to identify the key files to focus the review on).
