@@ -2,7 +2,7 @@
 name: complete-ticket
 description: Implement a single change ticket from a ticket file — read the problem, write a failing test, make it pass, commit. Marks the ticket done on success.
 compatibility: Requires Read, Glob, Grep, Write, Bash tools. Expects a ticket file with YAML frontmatter in docs/tickets/ or docs/changes/.
-allowed-tools: Read Glob Grep Write Bash
+allowed-tools: Read Glob Grep Write Edit Bash
 metadata:
   author: fabianmagrini
   version: "1.0"
