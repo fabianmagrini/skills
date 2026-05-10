@@ -130,3 +130,4 @@ What instrumentation is missing that would make this easier to diagnose in produ
 - Synchronous I/O on the Node.js event loop is a blocking call for all concurrent requests — flag it as HIGH regardless of how fast the individual operation is.
 - Do not recommend adding indexes without checking whether one already exists (`SHOW INDEXES`, `\d tablename`, `pg_indexes`). Read the schema or migration files first.
 - Cache recommendations must include an invalidation strategy. A cache without invalidation is a bug waiting to happen.
+- This skill pairs naturally with `/write-adr` (documenting the chosen optimization approach and the trade-offs considered) and `/refactor-strategy` (when the investigation surfaces a structural problem that requires a phased refactor rather than a targeted fix).

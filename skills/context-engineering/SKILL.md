@@ -201,3 +201,4 @@ Content that is missing and should be added, with draft text where possible.
 - Context files go stale. If the last-updated date in the file is more than 3–6 months old, note it as a freshness risk and recommend a re-audit.
 - For monorepos, a single root context file is often insufficient. Note whether per-package context files would add value.
 - Agent context files are read at the start of every session. Brevity matters — a 500-line context file will be truncated or ignored. Prioritise the highest-signal content and omit what the agent can derive from reading the code.
+- This skill pairs naturally with `/agent-loop-design` (the context file governs the permissions and instructions of an autonomous loop) and `/skill-generator` (skills registered in the context file should be generated and tested before being listed).

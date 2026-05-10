@@ -69,3 +69,4 @@ What it does, its signature, and any non-obvious behaviour or side effects.
 - Keep it short. If the user wants comprehensive docs, they should use `/research-codebase`.
 - Do not speculate about intent — describe what the code actually does.
 - For GitHub targets, try `main` then `master` for raw content URLs.
+- This skill pairs naturally with `/research-codebase` (when a full documentation file is needed rather than an inline explanation) and `/map-api-flow` (when the user needs to visualize how API calls flow through the code).

@@ -224,3 +224,4 @@ Decisions that must be resolved before implementation — name the owner and the
 - Proactive loops need explicit scope constraints. A reactive loop is naturally bounded by its trigger event. A proactive loop that can touch any file in any repository is a blast radius problem.
 - Hierarchical loops must define the trust boundary between orchestrator and subagent. A subagent should not be able to escalate its own permissions by convincing the orchestrator to authorize an action outside the declared scope.
 - Observability is a safety requirement, not a nice-to-have. A loop you cannot monitor is a loop you cannot trust in production.
+- This skill pairs naturally with `/context-engineering` (the agent context file defines the permissions and conventions the loop operates within) and `/skill-generator` (building reusable skills that the loop dispatches as discrete units of work).

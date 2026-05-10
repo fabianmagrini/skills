@@ -107,3 +107,4 @@ After writing the file, respond inline with:
 - Consequences should be honest about trade-offs — an ADR that lists only positives will not be trusted.
 - If the decision has already been implemented, set status to `Accepted` and note the date of implementation in the Context.
 - Do not create a new ADR directory structure without confirming with the user if the repo has no existing ADR convention — ask where they want it.
+- This skill pairs naturally with `/draft-rfc` (an RFC captures the proposal and discussion; an ADR records the final decision that came out of it) and `/design-system` (each significant architectural choice made during system design warrants its own ADR).

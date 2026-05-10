@@ -178,3 +178,4 @@ This assessment is based on static file analysis. For authoritative vulnerabilit
 - Coupling depth is a proxy for migration cost, not a measure of whether the vendor is good or bad. A deeply coupled vendor with a strong SLA and data portability may be lower risk than a loosely coupled one with no export mechanism.
 - If no lockfile exists alongside the manifest, flag this as HIGH risk — without a lockfile, builds are not reproducible and are vulnerable to dependency confusion attacks.
 - A vendor abstraction layer only reduces lock-in risk if it genuinely encapsulates the vendor — a thin wrapper that leaks vendor-specific types or error codes does not count.
+- This skill pairs naturally with `/threat-model` (supply chain threats from abandoned or compromised packages) and `/refactor-strategy` (planning a migration away from high-risk or deeply coupled vendors).

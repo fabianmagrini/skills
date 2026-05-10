@@ -128,3 +128,4 @@ Bullet list of decisions that must be resolved before or during the refactor. Na
 - Rollback plans must be specific. "Revert the PR" is not a rollback plan if the phase includes a data migration.
 - Effort estimates should be honest. XL phases are a signal to split, not a reason to pad the timeline.
 - If the refactor crosses a team boundary (another team owns a dependency), name the coordination risk explicitly and do not assume their availability.
+- This skill pairs naturally with `/write-adr` (documenting the decision to refactor and the approach chosen) and `/test-strategy` (characterization test coverage must be in place before refactoring — see Phase 0).
