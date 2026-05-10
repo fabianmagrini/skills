@@ -150,3 +150,4 @@ Group stories into waves that can be worked in parallel within each wave:
 - Size honestly. XL stories should be split. A story that cannot be completed and reviewed in a sprint is too large regardless of what the spec implies.
 - If the spec is ambiguous about a significant design decision (data model, API shape, third-party integration), convert it to a spike rather than assuming an answer and building stories on top of that assumption.
 - Rollout stories (feature flag on/off, gradual rollout, cleanup of flag after full release) are commonly forgotten. If the feature uses a feature flag, the backlog is incomplete without a story to remove it after rollout.
+- This skill pairs naturally with `/complete-ticket` (implementing the tickets generated here) and `/draft-rfc` (for complex features, an RFC should precede backlog generation to resolve design decisions before stories are written).

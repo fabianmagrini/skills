@@ -86,3 +86,4 @@ Produces `project-docs.md` using local file reads.
   describes the full picture.
 - Omit output sections that don't apply (e.g. skip Services for single-package
   repos, skip Infrastructure if there's none).
+- This skill pairs naturally with `/explain-codebase` (for a quick inline answer rather than a full documentation file) and `/context-engineering` (the research output is a good source for generating an agent context file).

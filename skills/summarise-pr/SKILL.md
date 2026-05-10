@@ -63,3 +63,4 @@ Any unresolved discussion threads from review comments, if present.
 - GitHub API returns 403 for unauthenticated requests on private repos — note this and ask the user to provide a token or use the GitHub CLI.
 - Large PRs (100+ files) may hit API pagination; summarize from the first page and note that the PR is large.
 - If the PR body is empty, rely on commit messages and file changes to infer purpose.
+- This skill pairs naturally with `/review-code` (for a thorough code review after the summary identifies the key files to focus on).

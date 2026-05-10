@@ -60,3 +60,4 @@ After writing, print:
 - Do not add tests that only verify implementation details (testing private state, exact call counts for internal calls).
 - If the target has no existing tests, note this but still write tests based on the code's behaviour.
 - If the code is untestable as-is (e.g. tight coupling, no dependency injection), note what refactoring would enable testing rather than writing poor tests.
+- This skill pairs naturally with `/test-strategy` (run the strategy audit first to understand which gaps are highest priority before writing tests) and `/review-code` (tests flagged as missing during code review are good candidates for this skill).

@@ -143,3 +143,4 @@ Bullet list of decisions deferred or questions the team must answer before imple
 - Trade-offs must be honest. If a choice has a real cost (operational complexity, vendor lock-in, learning curve), name it.
 - If the target is a migration, produce a phased approach in Open Questions rather than designing the end state only.
 - For greenfield systems with no local codebase, be explicit that the output is a starting point and link to relevant ADR skills for capturing individual decisions.
+- This skill pairs naturally with `/draft-rfc` (capturing the system design as an RFC for team review) and `/write-adr` (recording the individual architectural decisions made during design).

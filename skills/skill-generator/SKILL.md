@@ -144,3 +144,4 @@ If any item fails, fix it in the draft before writing.
 - The generated skill is a first draft. Flag this clearly — do not present it as production-ready without the user testing it against real inputs.
 - If the workflow the user describes is too broad (e.g. "help with code quality"), narrow it to a single, specific output before generating. A skill that tries to do everything does nothing well.
 - Do not generate a skill that duplicates an existing one. Run `Glob skills/*/SKILL.md` and read descriptions to check for overlap before writing. If overlap exists, suggest extending the existing skill instead.
+- This skill pairs naturally with `/context-engineering` (register the new skill in the agent context file after generating it) and `/agent-loop-design` (new skills often become the discrete work units dispatched by an autonomous loop).
