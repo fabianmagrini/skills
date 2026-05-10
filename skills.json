@@ -118,6 +118,15 @@
       "author": "fabianmagrini"
     },
     {
+      "name": "debug-issue",
+      "description": "Diagnose a bug, error, or unexpected behaviour — given a symptom, stack trace, or error message — by reading relevant source, checking recent changes, and producing a ranked suspect list with specific fix recommendations.",
+      "path": "skills/debug-issue/SKILL.md",
+      "category": "improve",
+      "allowed-tools": ["Read", "Glob", "Grep", "Bash"],
+      "version": "1.0",
+      "author": "fabianmagrini"
+    },
+    {
       "name": "perf-investigate",
       "description": "Diagnose performance bottlenecks in a system or codebase — latency, CPU, memory, or throughput — and produce a latency tree, suspect list, cache opportunities, and a concrete profiling plan.",
       "path": "skills/perf-investigate/SKILL.md",
