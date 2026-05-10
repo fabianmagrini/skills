@@ -6,7 +6,7 @@ allowed-tools: Read Glob Grep Write
 metadata:
   author: fabianmagrini
   version: "1.0"
-  last-updated: 2026-05-09
+  last-updated: 2026-05-10
 ---
 
 Draft a comprehensive RFC for the given feature or initiative.
@@ -185,4 +185,4 @@ After writing the file, respond inline with:
 - Alternatives must be genuine. An alternative that is obviously wrong with no real trade-off is not an alternative — it is a straw man. Each alternative should be something a reasonable engineer might have proposed.
 - Do not reopen closed ADRs without explicitly flagging it. If the RFC requires revisiting a prior decision, note the ADR by number and explain why the decision is being reconsidered.
 - Open Questions with no owner and no target date will not get resolved. Every open question must have both.
-- This skill pairs naturally with `/design-system` (a system design is a natural precursor to an RFC for a new service or platform), `/write-adr` (for individual decisions that emerge from RFC review), and `/spec-to-backlog` (to convert an accepted RFC into implementation stories).
+- This skill pairs naturally with `/design-system` (a system design is a natural precursor to an RFC for a new service or platform), `/write-adr` (for individual decisions that emerge from RFC review), `/spec-to-backlog` (to convert an accepted RFC into implementation stories), `/agent-loop-design` (agentic workflows that automate significant decisions warrant an RFC before implementation), and `/migrate-data` (RFCs for new services or schema changes should reference the migration plan).
