@@ -2,10 +2,10 @@
 name: incident-review
 description: Produce a blameless postmortem and RCA for an incident — structured timeline, proximate and root cause analysis using 5 Whys, contributing factors, and actionable CAPAs with owners and dates.
 compatibility: Accepts a markdown timeline file, a raw description, or a directory of incident notes. No code access required.
-allowed-tools: Read Glob Write
+allowed-tools: Read Glob Grep Write
 metadata:
   author: fabianmagrini
-  version: "1.0"
+  version: "1.1"
   last-updated: 2026-05-10
 ---
 

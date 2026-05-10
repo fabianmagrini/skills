@@ -2,10 +2,10 @@
 name: estimate-effort
 description: Produce a justified effort estimate (S/M/L/XL) for a ticket, story, or feature request — assessing scope clarity, code touchpoints, test burden, unknowns, and risk factors, with a split recommendation if XL.
 compatibility: Requires Read, Glob, Grep for local codebases. Accepts a ticket file, a story description, or natural language without file access.
-allowed-tools: Read Glob Grep
+allowed-tools: Read Glob Grep Write
 metadata:
   author: fabianmagrini
-  version: "1.0"
+  version: "1.1"
   last-updated: 2026-05-10
 ---
 
@@ -102,7 +102,7 @@ These are engineering days, not calendar days. They assume the implementing engi
 
 ## Output format
 
-Respond inline — this skill does not write a file.
+Respond inline by default. If the user passes `--save`, write to `docs/estimates/{kebab-case-target}.md`.
 
 ---
 

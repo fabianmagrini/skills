@@ -10,6 +10,7 @@ ROOT = Path(__file__).parent.parent
 SKILLS_DIR = ROOT / "skills"
 SKILLS_JSON = ROOT / "skills.json"
 REQUIRED_FIELDS = {"name", "description", "allowed-tools"}
+KNOWN_TOOLS = {"Read", "Glob", "Grep", "Write", "Edit", "Bash", "WebFetch", "WebSearch", "Agent"}
 
 errors = []
 
@@ -68,6 +69,9 @@ def main():
                 fail(f"{name}: missing required field '{field}'")
         if fm.get("name") != name:
             fail(f"{name}: name field '{fm.get('name')}' does not match directory name")
+        unknown_tools = set(fm.get("allowed-tools", "").split()) - KNOWN_TOOLS
+        if unknown_tools:
+            fail(f"{name}: unknown tool(s) in allowed-tools: {sorted(unknown_tools)}")
     added = len(errors) - before
     passed = len(skill_dirs) - added
     print(f"  {'OK' if added == 0 else '  '}    {passed}/{len(skill_dirs)} skills have valid SKILL.md\n")
