@@ -163,6 +163,15 @@
       "author": "fabianmagrini"
     },
     {
+      "name": "security-audit",
+      "description": "Audit source code for OWASP Top 10 vulnerabilities — injection, broken auth, sensitive data exposure, misconfiguration, and more — producing a severity-ranked finding list with file locations and specific remediations.",
+      "path": "skills/security-audit/SKILL.md",
+      "category": "secure",
+      "allowed-tools": ["Read", "Glob", "Grep"],
+      "version": "1.0",
+      "author": "fabianmagrini"
+    },
+    {
       "name": "threat-model",
       "description": "Apply STRIDE threat modelling to a system, component, or architecture description to identify threat vectors, trust boundaries, abuse cases, and mitigations.",
       "path": "skills/threat-model/SKILL.md",
