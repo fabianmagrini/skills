@@ -53,6 +53,7 @@ Skills extend your coding agent with reusable, invocable prompts. Each skill liv
 | Skill | Description |
 |-------|-------------|
 | [dependency-risk](skills/dependency-risk/SKILL.md) | Analyze package, vendor, or architecture dependency risk — supply chain exposure, license compatibility, vendor lock-in, and coupling depth |
+| [security-audit](skills/security-audit/SKILL.md) | Audit source code for OWASP Top 10 vulnerabilities — injection, broken auth, sensitive data exposure, and misconfiguration — with severity-ranked findings and specific remediations |
 | [threat-model](skills/threat-model/SKILL.md) | Apply STRIDE threat modelling to identify threat vectors, trust boundaries, abuse cases, and mitigations |
 
 ### Operate
@@ -168,6 +169,11 @@ Invoke any skill with its slash command (exact syntax may vary by agent):
 /dependency-risk package.json
 /dependency-risk auth0
 /dependency-risk services/payments/
+
+# Audit source code for security vulnerabilities
+/security-audit src/api/
+/security-audit authentication
+/security-audit src/auth/session.ts
 
 # Threat model a system or component
 /threat-model payments API
