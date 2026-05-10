@@ -43,6 +43,7 @@ Skills extend your coding agent with reusable, invocable prompts. Each skill liv
 
 | Skill | Description |
 |-------|-------------|
+| [debug-issue](skills/debug-issue/SKILL.md) | Diagnose a bug, error, or unexpected behaviour — from symptom or stack trace to ranked suspects, root cause, and specific fix recommendation |
 | [perf-investigate](skills/perf-investigate/SKILL.md) | Diagnose performance bottlenecks — latency, CPU, memory, or throughput — with a latency tree, suspect list, cache opportunities, and profiling plan |
 | [refactor-strategy](skills/refactor-strategy/SKILL.md) | Produce a large-scale refactoring roadmap with incremental phases, blast radius analysis, rollback plan, and risk register |
 
@@ -142,6 +143,11 @@ Invoke any skill with its slash command (exact syntax may vary by agent):
 # Write an Architecture Decision Record
 /write-adr use GraphQL federation
 /write-adr Redis for authorization cache
+
+# Diagnose a bug or error
+/debug-issue "TypeError: Cannot read properties of undefined"
+/debug-issue checkout fails after adding a coupon
+/debug-issue src/auth/session.ts
 
 # Investigate a performance problem
 /perf-investigate checkout latency
