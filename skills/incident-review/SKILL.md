@@ -6,7 +6,7 @@ allowed-tools: Read Glob Write
 metadata:
   author: fabianmagrini
   version: "1.0"
-  last-updated: 2026-05-09
+  last-updated: 2026-05-10
 ---
 
 Produce a structured, blameless postmortem for the given incident.
@@ -165,4 +165,4 @@ Each action must be specific, assigned to an owner, and have a target date. Vagu
 - Flag unknown timeline gaps explicitly rather than inventing timestamps. An honest postmortem with gaps is more useful than a confident one with fabricated data.
 - Time to detect is often the most revealing metric — a long detection time points to observability gaps regardless of what caused the incident.
 - If the 5 Whys reaches "human error" as a stopping point, go one level deeper: why was the system designed in a way that made the human error possible or impactful?
-- This skill pairs naturally with `/generate-runbook` (runbook gaps exposed by the incident should be addressed before the next on-call rotation), `/platform-readiness` (CAPAs often map directly to readiness gaps — observability, rollback, alerting), and `/debug-issue` (when the root cause is still unclear after the timeline is assembled, use debug-issue to narrow to a specific code path).
+- This skill pairs naturally with `/generate-runbook` (runbook gaps exposed by the incident should be addressed before the next on-call rotation), `/platform-readiness` (CAPAs often map directly to readiness gaps — observability, rollback, alerting), `/debug-issue` (when the root cause is still unclear after the timeline is assembled, use debug-issue to narrow to a specific code path), `/perf-investigate` (for performance incidents, use perf-investigate to profile the bottleneck after the timeline establishes when it began), and `/summarise-pr` (summarise recently merged PRs that fall within the incident window to identify contributing changes).
