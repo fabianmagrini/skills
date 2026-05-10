@@ -6,7 +6,7 @@ allowed-tools: Read Glob Grep Write
 metadata:
   author: fabianmagrini
   version: "1.0"
-  last-updated: 2026-05-09
+  last-updated: 2026-05-10
 ---
 
 Generate or update an operational runbook grounded in the service's actual deployment config, alerts, and dependencies.
@@ -265,4 +265,4 @@ One entry per alert found in alert rule files.
 - The Quick Reference table link placeholders must be clearly marked as placeholders — do not invent dashboard URLs.
 - If the deployment command cannot be found in the CI/CD pipeline, say so and leave a `TODO` rather than guessing.
 - Runbooks go stale quickly. If the discovery steps find a large delta between the runbook and the current config, recommend adding a last-updated date and scheduling a quarterly review.
-- This skill pairs naturally with `/platform-readiness` (which checks whether a runbook exists as part of its CI/CD pillar), `/incident-review` (which references runbook procedures during postmortems), and `/test-strategy` (smoke tests and health checks documented in the runbook should align with the test suite).
+- This skill pairs naturally with `/platform-readiness` (which checks whether a runbook exists as part of its CI/CD pillar), `/incident-review` (which references runbook procedures during postmortems), `/test-strategy` (smoke tests and health checks documented in the runbook should align with the test suite), and `/migrate-data` (the runbook's Database and Migrations section should reference the migration plan for any schema changes in the deployment).
