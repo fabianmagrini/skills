@@ -10,6 +10,7 @@ Skills extend your coding agent with reusable, invocable prompts. Each skill liv
 
 | Skill | Description |
 |-------|-------------|
+| [complete-ticket](skills/complete-ticket/SKILL.md) | Implement a single change ticket — read the problem, write a failing test, make it pass, commit, and mark done |
 | [spec-to-backlog](skills/spec-to-backlog/SKILL.md) | Convert a product spec or feature description into a sequenced backlog of epics, user stories, technical stories, and spikes |
 
 ### Understand
@@ -89,6 +90,10 @@ Invoke any skill with its slash command (exact syntax may vary by agent):
 # Generate a new skill from a workflow description
 /skill-generator
 /skill-generator summarise Slack threads into action items
+
+# Implement a single ticket
+/complete-ticket docs/tickets/add-export-endpoint.md
+/complete-ticket export endpoint
 
 # Convert a spec to a backlog
 /spec-to-backlog passkey auth
