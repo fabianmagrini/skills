@@ -6,7 +6,7 @@ allowed-tools: Read Glob Grep Write
 metadata:
   author: fabianmagrini
   version: "1.0"
-  last-updated: 2026-05-09
+  last-updated: 2026-05-10
 ---
 
 Design a complete, production-quality API specification for the given feature or service.
