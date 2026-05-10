@@ -10,6 +10,15 @@
       "author": "fabianmagrini"
     },
     {
+      "name": "create-ticket",
+      "description": "Create a well-formed change ticket from a description, bug report, or feature request — extracting problem statement, acceptance criteria, and technical context into a ready-to-implement ticket file.",
+      "path": "skills/create-ticket/SKILL.md",
+      "category": "build",
+      "allowed-tools": ["Read", "Glob", "Grep", "Write"],
+      "version": "1.0",
+      "author": "fabianmagrini"
+    },
+    {
       "name": "spec-to-backlog",
       "description": "Convert a product specification, PRD, or feature description into a sequenced backlog of epics, user stories, technical stories, and spikes with acceptance criteria and dependency ordering.",
       "path": "skills/spec-to-backlog/SKILL.md",
