@@ -64,6 +64,15 @@
       "author": "fabianmagrini"
     },
     {
+      "name": "onboard-codebase",
+      "description": "Produce a structured onboarding guide for a new engineer joining a project — covering architecture, local setup, key entry points, development workflow, and testing conventions — grounded in the actual codebase.",
+      "path": "skills/onboard-codebase/SKILL.md",
+      "category": "understand",
+      "allowed-tools": ["Read", "Glob", "Grep", "Write"],
+      "version": "1.0",
+      "author": "fabianmagrini"
+    },
+    {
       "name": "research-codebase",
       "description": "Research and produce comprehensive documentation for a codebase from a GitHub URL or local path.",
       "path": "skills/research-codebase/SKILL.md",
