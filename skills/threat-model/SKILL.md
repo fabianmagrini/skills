@@ -6,7 +6,7 @@ allowed-tools: Read Glob Grep
 metadata:
   author: fabianmagrini
   version: "1.0"
-  last-updated: 2026-05-09
+  last-updated: 2026-05-10
 ---
 
 Produce a STRIDE threat model for the target system or component.
@@ -105,4 +105,4 @@ Brief bullet list of security controls already in place. Not filler — only inc
 - For file targets, read the auth middleware and validation layers before concluding they are absent — they may be applied at a higher level.
 - If the system uses a framework with built-in protections (Django CSRF, Rails strong parameters, parameterized queries via ORM), credit these in "What looks good" and note what they cover.
 - STRIDE is a starting point, not exhaustive. For payment systems or PII-heavy targets, call out that OWASP ASVS or PCI-DSS controls should also be reviewed separately.
-- This skill pairs naturally with `/design-api` (threat modelling an API surface before it is implemented), `/platform-readiness` (the security pillar of a readiness review warrants a full STRIDE analysis for new or high-risk services), and `/dependency-risk` (supply chain threats from third-party packages are a STRIDE Tampering and Elevation of Privilege concern).
+- This skill pairs naturally with `/design-api` (threat modelling an API surface before it is implemented), `/platform-readiness` (the security pillar of a readiness review warrants a full STRIDE analysis for new or high-risk services), `/dependency-risk` (supply chain threats from third-party packages are a STRIDE Tampering and Elevation of Privilege concern), and `/security-audit` (STRIDE identifies architectural threats; security-audit finds the same classes of vulnerability at the code level).
