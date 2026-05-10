@@ -6,7 +6,7 @@ allowed-tools: Read Glob Write
 metadata:
   author: fabianmagrini
   version: "1.0"
-  last-updated: 2026-05-09
+  last-updated: 2026-05-10
 ---
 
 Generate a new skill from a workflow description. Do not write anything until the elicitation steps are complete.
