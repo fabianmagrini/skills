@@ -1,6 +1,15 @@
 {
   "skills": [
     {
+      "name": "complete-ticket",
+      "description": "Implement a single change ticket from a ticket file — read the problem, write a failing test, make it pass, commit, and mark the ticket done.",
+      "path": "skills/complete-ticket/SKILL.md",
+      "category": "build",
+      "allowed-tools": ["Read", "Glob", "Grep", "Write", "Bash"],
+      "version": "1.0",
+      "author": "fabianmagrini"
+    },
+    {
       "name": "spec-to-backlog",
       "description": "Convert a product specification, PRD, or feature description into a sequenced backlog of epics, user stories, technical stories, and spikes with acceptance criteria and dependency ordering.",
       "path": "skills/spec-to-backlog/SKILL.md",
