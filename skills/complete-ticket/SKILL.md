@@ -124,7 +124,7 @@ completed: {YYYY-MM-DD}
 Commit everything in a single commit — the ticket file update and all code changes together:
 
 ```
-{ticket title} / Closes docs/tickets/{filename}
+{ticket title} / Closes {docs/tickets or docs/changes}/{filename}
 
 {one or two sentences describing what was implemented and why}
 ```
