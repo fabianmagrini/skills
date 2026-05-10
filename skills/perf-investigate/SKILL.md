@@ -2,11 +2,11 @@
 name: perf-investigate
 description: Diagnose performance bottlenecks in a system or codebase — latency, CPU, memory, or throughput — and produce a latency tree, suspect list, cache opportunities, and a concrete profiling plan.
 compatibility: Requires Read, Glob, Grep for local codebases. Accepts natural language descriptions of symptoms without file access.
-allowed-tools: Read Glob Grep
+allowed-tools: Read Glob Grep Write
 metadata:
   author: fabianmagrini
   version: "1.0"
-  last-updated: 2026-05-09
+  last-updated: 2026-05-10
 ---
 
 Diagnose the performance problem and produce an actionable investigation plan.
@@ -59,7 +59,7 @@ Look for metrics, tracing, and logging setup (`opentelemetry`, `datadog`, `prome
 
 ## Output format
 
-Respond inline — do NOT write a file unless the user passes `--save`.
+Respond inline by default. If the user passes `--save`, write to `docs/perf/{kebab-case-target}.md`.
 
 ### Performance Investigation: `{target}`
 
