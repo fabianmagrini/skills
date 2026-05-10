@@ -41,6 +41,16 @@ Use `references/` for templates, example outputs, or other files the skill promp
 - Add a row to the Skills table in [README.md](README.md).
 - Add an entry to [skills.json](skills.json) following the existing structure.
 
+### 5. Validate
+
+Run the validation script from the repo root before opening a PR:
+
+```bash
+python3 scripts/validate.py
+```
+
+It checks that every skill has required frontmatter fields, that `skills.json` covers all skill directories, and that `allowed-tools` and `version` match between the two.
+
 ## Conventions
 
 - Skill names use `kebab-case`.
