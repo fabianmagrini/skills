@@ -6,7 +6,7 @@ allowed-tools: Read Glob Grep
 metadata:
   author: fabianmagrini
   version: "1.0"
-  last-updated: 2026-04-06
+  last-updated: 2026-05-10
 ---
 
 Review the target code and produce a structured, actionable report.

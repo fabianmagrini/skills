@@ -6,7 +6,7 @@ allowed-tools: WebFetch WebSearch
 metadata:
   author: fabianmagrini
   version: "1.0"
-  last-updated: 2026-04-06
+  last-updated: 2026-05-10
 ---
 
 Summarise the target GitHub pull request clearly and concisely.

@@ -6,7 +6,7 @@ allowed-tools: Read Glob Grep Write
 metadata:
   author: fabianmagrini
   version: "1.0"
-  last-updated: 2026-04-06
+  last-updated: 2026-05-10
 ---
 
 Write tests for the target code that fit naturally into the existing test suite.
