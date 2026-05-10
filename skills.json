@@ -181,6 +181,15 @@
       "author": "fabianmagrini"
     },
     {
+      "name": "migrate-data",
+      "description": "Plan and scaffold a database migration — schema change or data transformation — with a rollback strategy, zero-downtime sequencing, pre/post deployment steps, and validation queries grounded in the project's actual migration tooling.",
+      "path": "skills/migrate-data/SKILL.md",
+      "category": "operate",
+      "allowed-tools": ["Read", "Glob", "Grep", "Write"],
+      "version": "1.0",
+      "author": "fabianmagrini"
+    },
+    {
       "name": "platform-readiness",
       "description": "Evaluate the production readiness of a service or platform across observability, security, CI/CD, scalability, and SLOs. Produces a RAG-scored checklist, findings with evidence, and a prioritised remediation list.",
       "path": "skills/platform-readiness/SKILL.md",
