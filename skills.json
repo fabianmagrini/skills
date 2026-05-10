@@ -91,6 +91,15 @@
       "author": "fabianmagrini"
     },
     {
+      "name": "document-api",
+      "description": "Reverse-engineer an existing API from source code — routes, controllers, models, and middleware — and produce a complete OpenAPI 3.x specification for what is actually implemented.",
+      "path": "skills/document-api/SKILL.md",
+      "category": "design",
+      "allowed-tools": ["Read", "Glob", "Grep", "Write"],
+      "version": "1.0",
+      "author": "fabianmagrini"
+    },
+    {
       "name": "design-system",
       "description": "Convert a requirement or business goal into a reference architecture with C4 diagrams, component boundaries, trade-offs, NFRs, and risks.",
       "path": "skills/design-system/SKILL.md",
