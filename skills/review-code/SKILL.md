@@ -2,10 +2,10 @@
 name: review-code
 description: Perform a structured code review of a file or function, covering correctness, security, readability, edge cases, and test coverage.
 compatibility: Requires Read, Glob, Grep tools for local paths.
-allowed-tools: Read Glob Grep
+allowed-tools: Read Glob Grep Write
 metadata:
   author: fabianmagrini
-  version: "1.0"
+  version: "1.1"
   last-updated: 2026-05-10
 ---
 
@@ -42,7 +42,7 @@ Work through each dimension in order:
 
 ## Output format
 
-Respond inline — do NOT write a file.
+Respond inline by default. If the user passes `--save`, write to `docs/reviews/{kebab-case-target}.md`.
 
 ### Code Review: `{target}`
 

@@ -86,8 +86,8 @@
       "description": "Perform a structured code review of a file or function, covering correctness, security, readability, edge cases, and test coverage.",
       "path": "skills/review-code/SKILL.md",
       "category": "review-and-test",
-      "allowed-tools": ["Read", "Glob", "Grep"],
-      "version": "1.0",
+      "allowed-tools": ["Read", "Glob", "Grep", "Write"],
+      "version": "1.1",
       "author": "fabianmagrini"
     },
     {
