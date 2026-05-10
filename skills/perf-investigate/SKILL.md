@@ -1,7 +1,7 @@
 ---
 name: perf-investigate
 description: Diagnose performance bottlenecks in a system or codebase — latency, CPU, memory, or throughput — and produce a latency tree, suspect list, cache opportunities, and a concrete profiling plan.
-compatibility: Requires Read, Glob, Grep for local codebases. Accepts natural language descriptions of symptoms without file access.
+compatibility: Requires Read, Glob, Grep, Write for local codebases. Accepts natural language descriptions of symptoms without file access.
 allowed-tools: Read Glob Grep Write
 metadata:
   author: fabianmagrini

@@ -1,7 +1,7 @@
 ---
 name: map-api-flow
 description: Map the full API call chain from frontend UI components through the API layer, across the network boundary, to backend controllers and services. Produces a Mermaid.js diagram and a bullet-point summary of critical data flow paths.
-compatibility: Requires Read, Glob, Grep tools for local paths.
+compatibility: Requires Read, Glob, Grep, Agent tools for local paths. Accepts a feature name or flow description without a path when used for high-level mapping.
 allowed-tools: Read Glob Grep Agent
 metadata:
   author: fabianmagrini

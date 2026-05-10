@@ -1,7 +1,7 @@
 ---
 name: test-strategy
 description: Audit the current test pyramid, identify imbalances and coverage gaps, and produce a recommended test strategy with tooling, coverage targets, and a prioritised improvement plan.
-compatibility: Requires Read, Glob, Grep for local codebases.
+compatibility: Requires Read, Glob, Grep, Write for local codebases. Accepts a service name or directory path; also works without file access for framework-level recommendations.
 allowed-tools: Read Glob Grep Write
 metadata:
   author: fabianmagrini
