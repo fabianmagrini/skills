@@ -6,7 +6,7 @@ allowed-tools: Read Glob Grep WebFetch
 metadata:
   author: fabianmagrini
   version: "1.0"
-  last-updated: 2026-04-06
+  last-updated: 2026-05-10
 ---
 
 Explain the target codebase, directory, or file clearly and concisely. Respond inline — do NOT write a file. This is a lightweight alternative to `research-codebase` when the user just wants to understand something quickly.

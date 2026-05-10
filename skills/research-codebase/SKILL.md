@@ -6,7 +6,7 @@ allowed-tools: Read Glob Grep WebFetch Write
 metadata:
   author: fabianmagrini
   version: "1.0"
-  last-updated: 2026-04-06
+  last-updated: 2026-05-10
 ---
 
 Research and document the target codebase, then write a `{repo-name}-docs.md`

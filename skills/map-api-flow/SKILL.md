@@ -6,7 +6,7 @@ allowed-tools: Read Glob Grep Agent
 metadata:
   author: fabianmagrini
   version: "2.0"
-  last-updated: 2026-04-12
+  last-updated: 2026-05-10
 ---
 
 Scan the codebase and produce a Mermaid.js diagram that traces every API call chain end-to-end, then summarise the critical paths in bullet points.
