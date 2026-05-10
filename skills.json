@@ -23,8 +23,8 @@
       "description": "Produce a justified effort estimate (S/M/L/XL) for a ticket, story, or feature request — assessing scope clarity, code touchpoints, test burden, unknowns, and risk factors, with a split recommendation if XL.",
       "path": "skills/estimate-effort/SKILL.md",
       "category": "build",
-      "allowed-tools": ["Read", "Glob", "Grep"],
-      "version": "1.0",
+      "allowed-tools": ["Read", "Glob", "Grep", "Write"],
+      "version": "1.1",
       "author": "fabianmagrini"
     },
     {
@@ -95,8 +95,8 @@
       "description": "Summarise a GitHub pull request — its purpose, key changes, and review considerations — given a URL or owner/repo#number reference.",
       "path": "skills/summarise-pr/SKILL.md",
       "category": "review-and-test",
-      "allowed-tools": ["WebFetch", "WebSearch"],
-      "version": "1.0",
+      "allowed-tools": ["WebFetch", "WebSearch", "Write"],
+      "version": "1.1",
       "author": "fabianmagrini"
     },
     {
@@ -221,8 +221,8 @@
       "description": "Produce a blameless postmortem and RCA for an incident — structured timeline, proximate and root cause analysis using 5 Whys, contributing factors, and actionable CAPAs with owners and dates.",
       "path": "skills/incident-review/SKILL.md",
       "category": "operate",
-      "allowed-tools": ["Read", "Glob", "Write"],
-      "version": "1.0",
+      "allowed-tools": ["Read", "Glob", "Grep", "Write"],
+      "version": "1.1",
       "author": "fabianmagrini"
     },
     {
@@ -276,7 +276,7 @@
       "path": "skills/skill-generator/SKILL.md",
       "category": "agentic",
       "allowed-tools": ["Read", "Glob", "Write"],
-      "version": "1.0",
+      "version": "1.1",
       "author": "fabianmagrini"
     }
   ]

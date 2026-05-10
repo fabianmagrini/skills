@@ -5,7 +5,7 @@ compatibility: Requires Read to load SKILL-SCHEMA.md and reference skills. Requi
 allowed-tools: Read Glob Write
 metadata:
   author: fabianmagrini
-  version: "1.0"
+  version: "1.1"
   last-updated: 2026-05-10
 ---
 
@@ -111,7 +111,9 @@ If any item fails, fix it in the draft before writing.
 
 1. Write the skill to `skills/{name}/SKILL.md`. Create the directory if it does not exist.
 
-2. Print the following for the user to add to `README.md` and `skills.json`:
+2. If the skill's instructions reference templates, example outputs, or other supporting files, create a `references/` subdirectory and place those files there. Add a `references/README.md` explaining the purpose of each file.
+
+3. Print the following for the user to add to `README.md` and `skills.json`:
 
 **README row** (add to the appropriate category table):
 ```
@@ -131,8 +133,9 @@ If any item fails, fix it in the draft before writing.
 }
 ```
 
-3. Tell the user:
+4. Tell the user:
    - The file path written
+   - To run `python3 scripts/validate.py` to verify the skill is correctly registered in `skills.json`
    - That this is a **first draft** — test it against at least two real inputs before committing
    - Which sections are most likely to need refinement based on the elicitation (flag any questions that were answered with uncertainty)
 

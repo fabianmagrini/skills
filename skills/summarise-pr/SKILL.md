@@ -2,10 +2,10 @@
 name: summarise-pr
 description: Summarise a GitHub pull request — its purpose, key changes, and review considerations — given a URL or owner/repo#number reference.
 compatibility: Requires internet access.
-allowed-tools: WebFetch WebSearch
+allowed-tools: WebFetch WebSearch Write
 metadata:
   author: fabianmagrini
-  version: "1.0"
+  version: "1.1"
   last-updated: 2026-05-10
 ---
 
@@ -86,7 +86,7 @@ Based on the above, classify the review complexity:
 
 ## Output format
 
-Respond inline — do NOT write a file.
+Respond inline by default. If the user passes `--save`, write to `docs/pr-summaries/{owner}-{repo}-{number}.md`.
 
 ### {PR title} — {owner/repo}#{number}
 
