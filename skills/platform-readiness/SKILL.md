@@ -6,7 +6,7 @@ allowed-tools: Read Glob Grep Write
 metadata:
   author: fabianmagrini
   version: "1.0"
-  last-updated: 2026-05-09
+  last-updated: 2026-05-10
 ---
 
 Evaluate the production readiness of the target service or platform and produce a scored assessment with prioritised remediation.
@@ -120,4 +120,4 @@ Note any pillars or checks that could not be assessed due to missing files, exte
 - Resource limits without requests are incomplete — Kubernetes uses requests for scheduling. Both must be set.
 - A rollback mechanism that exists only in someone's head is not a rollback mechanism. It must be documented and ideally tested.
 - If no CI/CD pipeline file is found, this is CRITICAL — not a gap to note politely. A service with no pipeline cannot safely ship changes.
-- This skill pairs naturally with `/generate-runbook` (runbook coverage is a CI/CD pillar requirement), `/threat-model` (deeper analysis of the security pillar), `/test-strategy` (test coverage gaps found in the CI/CD pillar), `/perf-investigate` (scalability pillar findings often require deeper profiling), and `/incident-review` (readiness gaps often surface as CAPA items after an incident).
+- This skill pairs naturally with `/generate-runbook` (runbook coverage is a CI/CD pillar requirement), `/threat-model` (deeper analysis of the security pillar), `/security-audit` (security pillar findings warrant a full code-level audit), `/test-strategy` (test coverage gaps found in the CI/CD pillar), `/perf-investigate` (scalability pillar findings often require deeper profiling), `/migrate-data` (unreviewed migrations are a deployment risk flagged in the CI/CD pillar), and `/incident-review` (readiness gaps often surface as CAPA items after an incident).
