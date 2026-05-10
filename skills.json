@@ -5,7 +5,7 @@
       "description": "Implement a single change ticket from a ticket file — read the problem, write a failing test, make it pass, commit, and mark the ticket done.",
       "path": "skills/complete-ticket/SKILL.md",
       "category": "build",
-      "allowed-tools": ["Read", "Glob", "Grep", "Write", "Bash"],
+      "allowed-tools": ["Read", "Glob", "Grep", "Write", "Edit", "Bash"],
       "version": "1.0",
       "author": "fabianmagrini"
     },
