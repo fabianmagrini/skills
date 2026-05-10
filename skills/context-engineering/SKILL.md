@@ -11,6 +11,15 @@ metadata:
 
 Generate or audit an agent context file grounded in what the codebase actually contains.
 
+## Determine the target
+
+Accept any of:
+- No argument — operate on the current repository root
+- A subdirectory path: `src/services/payments/`, `packages/api/` — generate a scoped context file for that directory
+- A file path: `path/to/CLAUDE.md` — audit the specified existing context file
+
+If a path is given that does not exist, report what was searched and ask for clarification. If no path is given and no existing context file is found at the repo root, default to generate mode for the full repository.
+
 ## Determine the mode
 
 **Generate mode** (default) — create a new context file from scratch:
