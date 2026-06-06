@@ -24,6 +24,7 @@ Skills extend your coding agent with reusable, invocable prompts. Each skill liv
 | [map-api-flow](skills/map-api-flow/SKILL.md) | Map the full API call chain from frontend to backend, with a Mermaid diagram and critical path summary |
 | [onboard-codebase](skills/onboard-codebase/SKILL.md) | Produce a structured onboarding guide — local setup, architecture, entry points, workflow, and testing conventions — grounded in the actual codebase |
 | [research-codebase](skills/research-codebase/SKILL.md) | Comprehensive documentation for a codebase, written to a file |
+| [reverse-engineer](skills/reverse-engineer/SKILL.md) | Deep architectural reverse-engineering — WHY decisions were made, named patterns, engineering maturity, and historical evolution |
 
 ### Review & Test
 
@@ -138,6 +139,12 @@ Invoke any skill with its slash command (exact syntax may vary by agent):
 # Produce a full documentation file
 /research-codebase https://github.com/owner/repo
 /research-codebase /path/to/local/project
+
+# Deep architectural reverse-engineering (WHY decisions were made)
+/reverse-engineer
+/reverse-engineer services/payments
+/reverse-engineer https://github.com/owner/repo
+/reverse-engineer --inline
 
 # Review code
 /review-code src/payments/processor.ts

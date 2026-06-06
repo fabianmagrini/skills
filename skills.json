@@ -82,6 +82,15 @@
       "author": "fabianmagrini"
     },
     {
+      "name": "reverse-engineer",
+      "description": "Perform a deep architectural reverse-engineering of an existing web application — explaining WHY decisions were made, identifying named architectural patterns, assessing engineering maturity, and inferring historical evolution.",
+      "path": "skills/reverse-engineer/SKILL.md",
+      "category": "understand",
+      "allowed-tools": ["Read", "Glob", "Grep", "WebFetch", "Write", "Agent"],
+      "version": "1.0",
+      "author": "fabianmagrini"
+    },
+    {
       "name": "review-code",
       "description": "Perform a structured code review of a file or function, covering correctness, security, readability, edge cases, and test coverage.",
       "path": "skills/review-code/SKILL.md",
