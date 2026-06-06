@@ -5,7 +5,7 @@ compatibility: Requires Read, Glob, Grep for local paths. Requires internet acce
 allowed-tools: Read Glob Grep WebFetch Write Agent
 metadata:
   author: fabianmagrini
-  version: "1.0"
+  version: "1.1"
   last-updated: 2026-06-06
 ---
 
@@ -215,6 +215,9 @@ Where it breaks down: {specific inconsistency or violation, with file path}
 **Design decisions worth noting:**
 - {decision + rationale + tradeoff}
 
+**Failure modes at scale:**
+- {what breaks first as traffic or team size grows — e.g. "client-side state becomes a source of truth divergence once multiple tabs or concurrent users are involved"}
+
 ---
 
 ### Backend Architecture
@@ -231,6 +234,9 @@ Ingress → [Middleware] → Handler → Service → Repository → DB
 
 **Design decisions worth noting:**
 - {decision + rationale + tradeoff}
+
+**Failure modes at scale:**
+- {what breaks first — e.g. "synchronous request chain with no circuit breaker means a slow dependency degrades the entire API surface"}
 
 ---
 
@@ -280,6 +286,28 @@ Ingress → [Middleware] → Handler → Service → Repository → DB
 
 ---
 
+### Codebase Navigation Guide
+
+How a staff engineer would orient in this repo on day one.
+
+**Architectural entry points** — read these first, in this order:
+
+| # | File | Why read it first |
+|---|---|---|
+| 1 | `{path}` | {e.g. Server entrypoint — wires together all middleware and routes} |
+| 2 | `{path}` | {e.g. Root domain model — defines the core entities everything else refers to} |
+
+**How to find your way around:**
+- To understand a feature end-to-end: start at `{path/to/routes}`, trace to handler, then service, then DB model
+- To understand a UI flow: start at `{path/to/pages or app/}`, follow the data fetch hook, then the API client
+- To understand the data model: read `{path/to/migrations or schema file}`
+- To understand what CI enforces: read `{path/to/.github/workflows or Makefile}`
+
+**What experienced engineers notice immediately:**
+- {Pattern or signal that reveals the team's habits or constraints — e.g. "every handler imports the DB directly — there is no repository layer, which means testing requires a real DB"}
+
+---
+
 ### Key Lessons
 
 For each major architectural decision:
@@ -294,6 +322,39 @@ For each major architectural decision:
 
 ---
 
+### Learning Journey
+
+Structured paths through this codebase for different time budgets.
+
+**1-hour overview** — executive understanding, no code reading required:
+1. Read the Executive Summary and Architectural Style sections above
+2. Study the request lifecycle sequence diagram
+3. Trace the one feature end-to-end highlighted in the Frontend or Backend section
+4. Read the Engineering Maturity table and Top Risk
+
+**1-day onboarding** — enough to have an informed opinion:
+1. Complete the 1-hour path
+2. Read the entry point files from the Navigation Guide in order
+3. Run the app locally and trigger the traced feature yourself
+4. Read one test file per layer (unit, integration, e2e if present)
+5. Read the CI/CD config and understand what gates a merge
+
+**1-week deep dive** — enough to contribute safely:
+1. Complete the 1-day path
+2. Read every file cited in the Named Patterns section
+3. Trace a second feature end-to-end that you choose yourself — without guidance
+4. Read the Historical Evolution section and verify at least two inferences against git log
+5. Write a spike: add a minimal new endpoint or UI component and take it through CI
+
+**Become productive** — the milestone that matters:
+You are productive when you can answer these without looking at this document:
+- Where does a new API route go, and what layers does it touch?
+- Where does auth enforcement live, and how would you add a new permission check?
+- How do you run just the tests for one module?
+- What would break first if traffic doubled tomorrow?
+
+---
+
 After writing the file, print:
 
 **Architecture analysis written:** `{path}`
@@ -301,6 +362,8 @@ After writing the file, print:
 **Patterns found:** {list}
 **Maturity summary:** {X green / Y amber / Z red}
 **Top risk:** {one sentence}
+**Entry points documented:** {n files}
+**Learning journey:** 1-hour / 1-day / 1-week paths included
 
 ## Examples
 
