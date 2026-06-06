@@ -25,6 +25,7 @@ Skills extend your coding agent with reusable, invocable prompts. Each skill liv
 | [onboard-codebase](skills/onboard-codebase/SKILL.md) | Produce a structured onboarding guide — local setup, architecture, entry points, workflow, and testing conventions — grounded in the actual codebase |
 | [research-codebase](skills/research-codebase/SKILL.md) | Comprehensive documentation for a codebase, written to a file |
 | [reverse-engineer](skills/reverse-engineer/SKILL.md) | Deep architectural reverse-engineering — WHY decisions were made, named patterns, engineering maturity, and historical evolution |
+| [tech-deep-dive](skills/tech-deep-dive/SKILL.md) | Deep-dive into one specific technology in the stack — configuration, usage patterns, project-specific abstractions, and contributor guide |
 
 ### Review & Test
 
@@ -145,6 +146,12 @@ Invoke any skill with its slash command (exact syntax may vary by agent):
 /reverse-engineer services/payments
 /reverse-engineer https://github.com/owner/repo
 /reverse-engineer --inline
+
+# Deep-dive into one technology in the stack
+/tech-deep-dive Redis
+/tech-deep-dive Prisma services/api
+/tech-deep-dive "React Query" --save
+/tech-deep-dive NextAuth --inline
 
 # Review code
 /review-code src/payments/processor.ts
