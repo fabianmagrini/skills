@@ -91,6 +91,15 @@
       "author": "fabianmagrini"
     },
     {
+      "name": "learn-technology",
+      "description": "Teach a technology from first principles — what it is, why it exists, how it works internally, the full pattern surface, operational concerns, and a structured learning path. Uses the codebase as worked examples when present, but works from a technology name alone.",
+      "path": "skills/learn-technology/SKILL.md",
+      "category": "understand",
+      "allowed-tools": ["Read", "Glob", "Grep", "WebFetch", "Write", "Agent"],
+      "version": "1.0",
+      "author": "fabianmagrini"
+    },
+    {
       "name": "tech-deep-dive",
       "description": "Deep-dive into one specific technology in the codebase — how this team configured it, where and how it's used, what patterns they apply, where they deviate from defaults, and how to work with it as a new contributor.",
       "path": "skills/tech-deep-dive/SKILL.md",
