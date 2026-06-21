@@ -33,6 +33,7 @@ Skills extend your coding agent with reusable, invocable prompts. Each skill liv
 | Skill | Description |
 |-------|-------------|
 | [review-code](skills/review-code/SKILL.md) | Structured code review covering correctness, security, edge cases, and tests |
+| [scrutinise](skills/scrutinise/SKILL.md) | Adversarial, end-to-end review that questions whether a change should exist, traces the real code path, and hunts stub bodies, fake tests, unverified claims, and unwired components — ending in a SHIP/FIX-FIRST/REJECT verdict |
 | [summarise-pr](skills/summarise-pr/SKILL.md) | Summarise a GitHub PR — purpose, key changes, and review considerations |
 | [test-strategy](skills/test-strategy/SKILL.md) | Audit the current test pyramid, identify gaps and imbalances, and produce a recommended strategy with tooling, coverage targets, and an improvement plan |
 | [write-tests](skills/write-tests/SKILL.md) | Generate tests that match the project's existing framework and conventions |

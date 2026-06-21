@@ -118,6 +118,15 @@
       "author": "fabianmagrini"
     },
     {
+      "name": "scrutinise",
+      "description": "Adversarial, end-to-end review of a plan, PR, diff, or code change by a fresh outsider whose job is to disprove \"done\" — questions whether the change should exist, traces the real code path (not just the diff), and hunts stub bodies, tests that mock the unit under test, acceptance criteria ticked without evidence, unreproducible runtime claims, and unwired components, ending in a SHIP/FIX-FIRST/REJECT verdict.",
+      "path": "skills/scrutinise/SKILL.md",
+      "category": "review-and-test",
+      "allowed-tools": ["Read", "Glob", "Grep", "Bash", "Agent"],
+      "version": "1.0",
+      "author": "fabianmagrini"
+    },
+    {
       "name": "summarise-pr",
       "description": "Summarise a GitHub pull request — its purpose, key changes, and review considerations — given a URL or owner/repo#number reference.",
       "path": "skills/summarise-pr/SKILL.md",
