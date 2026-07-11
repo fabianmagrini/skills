@@ -26,6 +26,7 @@ Skills extend your coding agent with reusable, invocable prompts. Each skill liv
 | [research-codebase](skills/research-codebase/SKILL.md) | Comprehensive documentation for a codebase, written to a file |
 | [reverse-engineer](skills/reverse-engineer/SKILL.md) | Deep architectural reverse-engineering — WHY decisions were made, named patterns, engineering maturity, and historical evolution |
 | [learn-technology](skills/learn-technology/SKILL.md) | Teach a technology from first principles — mental models, internals, patterns, operational concerns, and a structured learning path, with codebase examples when present |
+| [tech-blog-post](skills/tech-blog-post/SKILL.md) | Write a technical blog post from an existing analysis document (reverse-engineer output, deep-dive, onboarding guide, etc.) as a self-contained HTML file with syntax highlighting and no external dependencies |
 | [tech-deep-dive](skills/tech-deep-dive/SKILL.md) | Deep-dive into one specific technology in the stack — configuration, usage patterns, project-specific abstractions, and contributor guide |
 
 ### Review & Test
@@ -160,6 +161,12 @@ Invoke any skill with its slash command (exact syntax may vary by agent):
 /tech-deep-dive Prisma services/api
 /tech-deep-dive "React Query" --save
 /tech-deep-dive NextAuth --inline
+
+# Write a technical blog post from an analysis document
+/tech-blog-post architecture.md
+/tech-blog-post redis-deep-dive.md --author "Your Name"
+/tech-blog-post onboarding.md --output docs/blog/onboarding-guide.html
+/tech-blog-post reverse-engineer-output.md --inline
 
 # Review code
 /review-code src/payments/processor.ts
