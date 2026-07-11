@@ -109,6 +109,15 @@
       "author": "fabianmagrini"
     },
     {
+      "name": "tech-blog-post",
+      "description": "Write a detailed technical blog post from an existing analysis document (architecture analysis, onboarding guide, deep-dive, etc.) and save it as a self-contained HTML file with syntax highlighting, visual hierarchy, and no external dependencies. Use when you have an architecture.md, deep-dive, or research doc and want to publish it as a readable, well-designed article.",
+      "path": "skills/tech-blog-post/SKILL.md",
+      "category": "understand",
+      "allowed-tools": ["Read", "Glob", "Grep", "Write"],
+      "version": "1.0",
+      "author": "fabianmagrini"
+    },
+    {
       "name": "review-code",
       "description": "Perform a structured code review of a file or function, covering correctness, security, readability, edge cases, and test coverage.",
       "path": "skills/review-code/SKILL.md",
