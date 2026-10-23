@@ -261,9 +261,11 @@ Skills from people worth following:
 
 Specific skills to know about:
 
+| Source | Link | Highlights |
+|--------|------|------------|
 | [Warp](https://github.com/warpdotdev/common-skills) | <https://github.com/warpdotdev/common-skills/blob/main/.agents/skills/merge-risk/SKILL.md> | Merge risk |
 | [Cloudflare](https://github.com/cloudflare) | <https://github.com/cloudflare/security-audit-skill> | A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings |
-| [Diagram Design](https://diagramdesign.dev/) | <https://github.com/cathrynlavery/diagram-design | Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop. |
+| [Diagram Design](https://diagramdesign.dev/) | <https://github.com/cathrynlavery/diagram-design> | Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop. |
 
 ## Structure
 
