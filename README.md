@@ -259,6 +259,12 @@ Skills from people worth following:
 | [Addy Osmani](https://github.com/addyosmani) | <https://github.com/addyosmani/agent-skills> | Production-grade skills covering code review, security, TDD, debugging, performance, CI/CD, spec-driven development, and more |
 | [Matt Pocock](https://github.com/mattpocock) | <https://github.com/mattpocock/skills> | Practical engineering skills including TDD, architecture review, issue triage, prototyping, and diagnosis |
 
+Specific skills to know about:
+
+| [Warp](https://github.com/warpdotdev/common-skills) | <https://github.com/warpdotdev/common-skills/blob/main/.agents/skills/merge-risk/SKILL.md> | Merge risk |
+| [Cloudflare](https://github.com/cloudflare) | <https://github.com/cloudflare/security-audit-skill> | A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings |
+| [Diagram Design](https://diagramdesign.dev/) | <https://github.com/cathrynlavery/diagram-design | Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop. |
+
 ## Structure
 
 Each skill follows this layout:
