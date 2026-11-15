@@ -267,6 +267,7 @@ Specific skills to know about:
 | [Warp](https://github.com/warpdotdev/common-skills) | [merge-risk](https://github.com/warpdotdev/common-skills/blob/main/.agents/skills/merge-risk/SKILL.md) — Scores a PR's merge risk (low/medium/high) across alignment, impact and blast radius, verification, rollback cost, and error detection. Adapted from Matt Pocock's [pr](https://github.com/mattpocock/skills/blob/main/skills/engineering/pr/SKILL.md) skill |
 | [Cloudflare](https://github.com/cloudflare) | [security-audit-skill](https://github.com/cloudflare/security-audit-skill) — Multi-phase security audits with independently verified, machine-readable findings |
 | [Diagram Design](https://diagramdesign.dev/) | [diagram-design](https://github.com/cathrynlavery/diagram-design) — Editorial-style diagrams as self-contained HTML + SVG; 45 diagram types; works across Claude Code, Codex, GitHub Copilot, Cursor, and other agents |
+| [Google Chrome](https://github.com/GoogleChrome) | [modern-web-guidance](https://github.com/GoogleChrome/modern-web-guidance) — Looks up current web-platform best practice (~200 guides: Core Web Vitals, forms, CSS, accessibility, security, UI patterns) before the agent writes frontend code; also includes a Chrome Extensions (MV3) skill. Fetches guidance via `npx modern-web-guidance@latest` |
 
 ## Structure
 
