@@ -258,6 +258,7 @@ Skills from people worth following:
 |--------|------------|------------|
 | [Addy Osmani](https://github.com/addyosmani) | <https://github.com/addyosmani/agent-skills> | Production-grade skills covering code review, security, TDD, debugging, performance, CI/CD, spec-driven development, and more |
 | [Emil Kowalski](https://github.com/emilkowalski) | <https://github.com/emilkowalski/skills> | Design-engineering skills for UI polish and motion — building, choreographing, reviewing, and pruning animations, gesture-driven UI, mobile-native feel, and stress-testing components with worst-case data |
+| [Lauren Tan](https://github.com/poteto) | <https://github.com/cursor/plugins/tree/main/pstack> | pstack — rigour-first engineering skills routed by `/poteto-mode` (23 playbooks): blast-radius analysis, adversarial multi-model review, parallel "arena" attempts, verification-skill generators, and ~25 engineering-principle skills. Cursor-first; installs in Claude Code via the plugin marketplace |
 | [Matt Pocock](https://github.com/mattpocock) | <https://github.com/mattpocock/skills> | Practical engineering skills including TDD, architecture review, issue triage, prototyping, and diagnosis |
 
 Specific skills to know about:
