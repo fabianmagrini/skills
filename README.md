@@ -261,11 +261,11 @@ Skills from people worth following:
 
 Specific skills to know about:
 
-| Source | Link | Highlights |
-|--------|------|------------|
-| [Warp](https://github.com/warpdotdev/common-skills) | <https://github.com/warpdotdev/common-skills/blob/main/.agents/skills/merge-risk/SKILL.md> | Merge risk |
-| [Cloudflare](https://github.com/cloudflare) | <https://github.com/cloudflare/security-audit-skill> | A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings |
-| [Diagram Design](https://diagramdesign.dev/) | <https://github.com/cathrynlavery/diagram-design> | Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop. |
+| Source | Highlights |
+|--------|------------|
+| [Warp](https://github.com/warpdotdev/common-skills) | [merge-risk](https://github.com/warpdotdev/common-skills/blob/main/.agents/skills/merge-risk/SKILL.md) — Scores a PR's merge risk (low/medium/high) across alignment, impact and blast radius, verification, rollback cost, and error detection. Adapted from Matt Pocock's [pr](https://github.com/mattpocock/skills/blob/main/skills/engineering/pr/SKILL.md) skill |
+| [Cloudflare](https://github.com/cloudflare) | [security-audit-skill](https://github.com/cloudflare/security-audit-skill) — Multi-phase security audits with independently verified, machine-readable findings |
+| [Diagram Design](https://diagramdesign.dev/) | [diagram-design](https://github.com/cathrynlavery/diagram-design) — Editorial-style diagrams as self-contained HTML + SVG; 45 diagram types; works across Claude Code, Codex, GitHub Copilot, Cursor, and other agents |
 
 ## Structure
 
