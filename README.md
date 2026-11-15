@@ -257,6 +257,7 @@ Skills from people worth following:
 | Author | Repository | Highlights |
 |--------|------------|------------|
 | [Addy Osmani](https://github.com/addyosmani) | <https://github.com/addyosmani/agent-skills> | Production-grade skills covering code review, security, TDD, debugging, performance, CI/CD, spec-driven development, and more |
+| [Emil Kowalski](https://github.com/emilkowalski) | <https://github.com/emilkowalski/skills> | Design-engineering skills for UI polish and motion — building, choreographing, reviewing, and pruning animations, gesture-driven UI, mobile-native feel, and stress-testing components with worst-case data |
 | [Matt Pocock](https://github.com/mattpocock) | <https://github.com/mattpocock/skills> | Practical engineering skills including TDD, architecture review, issue triage, prototyping, and diagnosis |
 
 Specific skills to know about:
