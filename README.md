@@ -260,6 +260,7 @@ Skills from people worth following:
 | [Emil Kowalski](https://github.com/emilkowalski) | <https://github.com/emilkowalski/skills> | Design-engineering skills for UI polish and motion — building, choreographing, reviewing, and pruning animations, gesture-driven UI, mobile-native feel, and stress-testing components with worst-case data |
 | [Lauren Tan](https://github.com/poteto) | <https://github.com/cursor/plugins/tree/main/pstack> | pstack — rigour-first engineering skills routed by `/poteto-mode` (23 playbooks): blast-radius analysis, adversarial multi-model review, parallel "arena" attempts, verification-skill generators, and ~25 engineering-principle skills. Cursor-first; installs in Claude Code via the plugin marketplace |
 | [Matt Pocock](https://github.com/mattpocock) | <https://github.com/mattpocock/skills> | Practical engineering skills including TDD, architecture review, issue triage, prototyping, and diagnosis |
+| [Theo Browne](https://github.com/t3dotgg) | <https://github.com/t3dotgg/tstack> | PR-lifecycle skills: file a problem-first PR, babysit it through CI and review bots, rebase or take over stale PRs, and multi-provider "council" review. `full-send` runs a change unattended to a merged PR (grants itself merge, force-push, and testing permission) |
 
 Specific skills to know about:
 
